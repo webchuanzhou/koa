@@ -1,0 +1,23 @@
+{
+  "name": "de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "supervisor --harmony index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lichuanzhou",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1"
+  }
+}
